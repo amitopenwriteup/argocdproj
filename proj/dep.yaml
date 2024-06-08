@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microservice-deployment
+  namespace: microservices
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: microservice
+  template:
+    metadata:
+      labels:
+        app: microservice
+    spec:
+      serviceAccountName: microservice-sa
+      containers:
+        - name: microservice
+          image: amitow/nginx:v1
+          ports:
+            - containerPort: 80
+
