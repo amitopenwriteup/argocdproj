@@ -13,7 +13,7 @@ spec:
       labels:
         app: microservice
     spec:
-      serviceAccountName: microservice-sa
+      serviceAccountName: amit-microservice-sa
       containers:
         - name: microservice
           image: amitow/nginx:v1
