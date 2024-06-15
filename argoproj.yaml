@@ -7,11 +7,11 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/amitopenwriteup/argocdproj.git'
-    targetRevision: HEAD
+    targetRevision: amit
     path: proj
   destination:
     server: 'https://kubernetes.default.svc'
-    namespace: microservices
+    namespace: amit-microservice
   syncPolicy:
     automated:
       prune: true
