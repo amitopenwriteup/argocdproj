@@ -1,6 +1,6 @@
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  name: microservice-sa
-  namespace: microservices
+  name: amit-microservice-sa
+  namespace: amit-microservices
 
