@@ -9,7 +9,7 @@ spec:
         repoURL: 'https://github.com/amitopenwriteup/argocdproj.git'
         revision: main
         directories:
-          - path: 'argocd-appset/*'
+          - path: 'argocdappset/*'
   template:
     metadata:
       name: '{{path.basename}}-{{path.dirname}}-app'
