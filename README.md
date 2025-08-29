@@ -60,4 +60,3 @@ It demonstrates different patterns for automating application deployments using 
 
 ---
 
-Would you like me to make this README **short and simple (just usage + structure)**, or **detailed (with diagrams and workflow explanation)**?
